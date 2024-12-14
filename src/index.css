@@ -31,10 +31,10 @@
   }
 
   .active {
-    @apply text-blue-600 text-[16px] leading-7 font-semibold;
+    @apply text-blue-600 text-[16px] leading-7 font-semibold lg:text-lg;
   }
   .inactive {
-    @apply text-[#4E545F] text-[16px] leading-7 font-medium hover:text-blue-600 transition-colors;
+    @apply text-[#4E545F] text-[16px] leading-7 font-medium hover:text-blue-600 transition-colors lg:text-lg;
   }
 
   .bg-grad {

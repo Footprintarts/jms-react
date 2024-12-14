@@ -61,18 +61,19 @@ const NavBar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="navigation hidden md:block">
-            <ul className="menu centered-row gap-[2.7rem]">
+          <div className="lg:text-2xl text-white px-8 mx-auto md:block hidden ">
+            <ul className="centered-row gap-8">
               {navLinks.map((item, index) => (
-                <Link
-                  key={index}
-                  to={item.path}
-                  className={
-                    location.pathname === item.path ? "active" : "inactive"
-                  }
-                >
-                  {item.display}
-                </Link>
+                <li key={index}>
+                  <a
+                    href={item.path}
+                    className={
+                      location.pathname === item.path ? "active" : "inactive"
+                    }
+                  >
+                    {item.display}
+                  </a>
+                </li>
               ))}
             </ul>
           </div>
@@ -102,7 +103,7 @@ const NavBar = () => {
               isMobileNavVisible ? "translate-x-0" : "translate-x-full"
             } transition-transform duration-300`}
           >
-            <div className="bg-zinc-50 p-4 border-b border-blue-700 text-lg">
+            <div className="bg-zinc-50 p-2 border-b border-blue-700 text-lg">
               <button className="text-blue-600 bg-zinc-50" onClick={closeMenu}>
                 Back
               </button>
