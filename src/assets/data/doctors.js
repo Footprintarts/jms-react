@@ -16,7 +16,7 @@ export const doctors = [
   },
   {
     id: "02",
-    name: "Dr. Innocent Lymo",
+    name: "Dr. Jane Lymo",
     specialization: "Neurologist",
     avgRating: 4.8,
     totalRating: 272,

@@ -57,7 +57,7 @@ const HeroSection = () => {
           {/* Hero Images */}
           <div className="flex justify-end gap-[30px]">
             <div>
-              <img src={heroImage} alt="hero_image" />
+              <img src={heroImage} alt="hero_image" className="w-[490px]" />
             </div>
             <div className="mt-[30px]">
               <img

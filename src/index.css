@@ -77,6 +77,14 @@
     @apply flex items-center;
   }
 
+  .transition_2 {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  .center-item {
+    @apply flex items-center justify-center;
+  }
+
   .header {
     @apply bg-gradient-to-r from-blue-200 via-white to-red-100 backdrop-blur bg-no-repeat bg-cover bg-center w-full py-5 px-4;
   }

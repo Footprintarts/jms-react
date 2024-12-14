@@ -61,7 +61,7 @@ const NavBar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="lg:text-2xl text-white px-8 mx-auto md:block hidden ">
+          <div className=" text-white px-8 mx-auto md:block hidden ">
             <ul className="centered-row gap-8">
               {navLinks.map((item, index) => (
                 <li key={index}>
