@@ -1,27 +1,28 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "What services does your hospital provide?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "We offer a wide range of medical services, including general consultations, diagnostics, surgical procedures, maternity care, pediatric care, and specialized treatments in cardiology, orthopedics, and more. Our mission is to provide comprehensive care tailored to your needs.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "What should I do in case of a medical emergency?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "In case of a medical emergency, please visit our Emergency Department immediately or contact our 24/7 emergency hotline. Our team is equipped to handle critical conditions and provide urgent care.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Do I need an appointment to visit the hospital?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "For specialist consultations and general check-ups, we recommend scheduling an appointment to avoid long wait times. However, our urgent care and emergency services are available without prior appointments.",
   },
   {
-    question: "Can I visit your medical office?",
+    question:
+      "Does the hospital accept insurance, and what are the payment options?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes, we work with most major insurance providers and offer flexible payment options, including cash, credit/debit cards, and bank transfers. Our billing team is available to assist with any questions regarding coverage and payments.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "What happens if I need to be admitted to the hospital?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "If admission is required, our staff will assist you with the process, including selecting a suitable room and completing necessary documentation. During your stay, our team will ensure you receive personalized care and support for a smooth recovery.",
   },
 ];

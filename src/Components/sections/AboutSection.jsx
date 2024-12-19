@@ -21,16 +21,23 @@ const AboutSection = () => {
               Proud to be one of the nation&apos;s best.
             </h2>
             <p className="text_para">
-              For 30 years in a row, T.Z has recognized Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Eum, atque, incidunt voluptas
-              veniam explicabo culpa accusantium voluptatum officiis, quisquam
-              dicta vel nisi? Quae, asperiores.
+              We are driven by a commitment to excellence, delivering
+              patient-centered care that promotes wellness, prevents illness,
+              and provides effective treatment for a wide range of health
+              concerns.
             </p>
             <p className="text_para">
-              Our patients are looking for the best Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cupiditate consequuntur maxime
-              dolore. Animi officiis eveniet hic perferendis quidem.
+              Our goal is to offer exceptional healthcare services tailored to
+              the unique needs of each patient. From preventive care to advanced
+              treatments, we strive to ensure your well-being with compassion
+              and professionalism.
             </p>
+            <p className="text_para">
+              Trust us to provide a supportive and healing environment where
+              your health is our priority. Together, we’ll help you achieve a
+              healthier, happier life.
+            </p>
+
             <Link to="/">
               <button className="btn hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
                 Learn More

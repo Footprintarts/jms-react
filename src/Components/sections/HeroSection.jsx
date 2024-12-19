@@ -14,10 +14,12 @@ const HeroSection = () => {
                 We help patients live a healthy, longer life.
               </h1>
               <p className="text_para">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-                velit ut, ullam quis dignissimos, odit sunt debitis aliquam,
-                praesentium itaque repellendus repudiandae aspernatur ratione
-                rerum.
+                JMS Health Care Center Clinic is a premier healthcare facility
+                located in Dodoma, dedicated to delivering high-qulity medical
+                services to individuals and families in our community. We
+                combine compassionate care with modern medical technology to
+                ensure our patients receive the best possible treatment and
+                support.
               </p>
 
               <button className="btn py-5 hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
