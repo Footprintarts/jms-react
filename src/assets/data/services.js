@@ -8,7 +8,7 @@ export const services = [
   {
     name: "Nursing Services",
     desc: "Our Nurses are highly qualified, trained and motivated to help all your medical needs while making sure to provide you with great customer service and experience.",
-    bgColor: "rgb(220 38 38 / 0.2);",
+    bgColor: "rgb(220 38 38 / 0.2)",
     textColor: " #dc2626",
   },
   {
@@ -20,7 +20,7 @@ export const services = [
   {
     name: "Laboratory Services",
     desc: "Our lab technicians are highly qualified, trained and motivated to help all your medical needs while making sure to provide you with great customer service and experience. ",
-    bgColor: "rgba(220, 38, 38,  0.2);",
+    bgColor: "rgba(220, 38, 38,  0.2)",
     textColor: " #dc2626",
   },
   {
@@ -33,7 +33,7 @@ export const services = [
   {
     name: "Fast Track Services",
     desc: "With our new lounge, JMS provides fast track services to our clients. This ensures a quick turnaround time in all services provided and a shorter stay at our facility with great customer service and experience",
-    bgColor: "rgb(220 38 38 / 0.2);",
+    bgColor: "rgb(220 38 38 / 0.2)",
     textColor: " #dc2626",
   },
 ];
