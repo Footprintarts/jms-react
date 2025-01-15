@@ -21,12 +21,12 @@ const DoctorsCard = ({ doctor }) => {
         <div>
           <img src={photo} alt="img" className="w-full" />
         </div>
-        <h2 className="text-lg leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-bold mt-5">
+        <h2 className="text-lg leading-[30px] lg:text-[26px] lg:leading-9 text-blue-800 font-bold mt-5">
           {name}
         </h2>
 
         <div className="mt-2 lg:mt-4 flex items-center justify-between">
-          <span className="bg-[#CCF0F3] text-[#01b5c5] py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded">
+          <span className="bg-blue-700/20 text-blue-800 py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded">
             {specialization}
           </span>
 
@@ -43,7 +43,7 @@ const DoctorsCard = ({ doctor }) => {
         <div className="mt-[18px] lg:mt-5 flex items-center justify-between ">
           <div>
             <h3 className="text-base leading-7 lg:text-[18px] lg:leading-[30px] font-medium text-headingColor">
-              <span className="bg-lime-200 p-1 px-2 rounded font-semibold text-lime-600 ">
+              <span className="bg-red-600/20 mr-2 p-1 px-4 rounded font-semibold text-red-700 ">
                 {totalPatients}
               </span>{" "}
               patients

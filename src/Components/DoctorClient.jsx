@@ -17,7 +17,7 @@ const DoctorClient = ({ doctor }) => {
                 <img src={doctor.photo} alt="Doctor Image" />
               </figure>
               <div>
-                <span className="bg-[#CCF0F3] text-[#01b5c5] py-1 px-6 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-base font-semibold rounded mt-3">
+                <span className="bg-blue-800/20 text-blue-800 py-1 px-6 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-base font-semibold rounded mt-3">
                   {doctor.specialization}
                 </span>
                 <h3 className="text-[#181a1e] text-[22px] leading-9 mt-3 font-bold">
@@ -35,7 +35,7 @@ const DoctorClient = ({ doctor }) => {
               <span
                 onClick={() => setTab("about")}
                 className={`${
-                  tab === "about" && "border-b-2 border-b-blue-600"
+                  tab === "about" && "border-b-2 border-b-blue-900"
                 } py-2 px-5 mr-5 text-base text-[#181a1e] bg-white font-semibold cursor-pointer`}
               >
                 About

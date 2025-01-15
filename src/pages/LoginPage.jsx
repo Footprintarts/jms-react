@@ -15,7 +15,7 @@ const LoginPage = () => {
     <section className="px-5 lg:px-0">
       <div className="w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10">
         <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-          Hello👋 <span className="text-blue-600">Welcome</span> Back!
+          Hello👋 <span className="text-blue-800">Welcome</span> Back!
         </h3>
 
         <form className="py-4 md:py-0">
@@ -47,7 +47,7 @@ const LoginPage = () => {
           <div className="mt-7">
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white text-lg rounded-lg"
+              className="w-full bg-blue-800 text-white text-lg rounded-lg"
             >
               Login
             </button>

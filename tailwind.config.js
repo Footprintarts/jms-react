@@ -6,7 +6,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primaryColor: "#0067FF",
+        primaryColor: "#1b3e74",
         yellowColor: "#FEB600",
         purpleColor: "#9771FF",
         irisBlueColor: "#01B5C5",

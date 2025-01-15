@@ -17,7 +17,7 @@ const SidePanel = () => {
             <p className="text-[15px] leading-6 text-zinc-600/80 font-semibold">
               Sunday
             </p>
-            <p className="text-[15px] leading-6 text-blue-500 font-semibold">
+            <p className="text-[15px] leading-6 text-blue-700 font-semibold">
               4:00 PM - 9:30 PM
             </p>
           </li>
@@ -25,7 +25,7 @@ const SidePanel = () => {
             <p className="text-[15px] leading-6 text-zinc-600/80 font-semibold">
               Tuesday
             </p>
-            <p className="text-[15px] leading-6 text-blue-500 font-semibold">
+            <p className="text-[15px] leading-6 text-blue-700 font-semibold">
               4:00 PM - 9:30 PM
             </p>
           </li>
@@ -33,7 +33,7 @@ const SidePanel = () => {
             <p className="text-[15px] leading-6 text-zinc-600/80 font-semibold">
               Friday
             </p>
-            <p className="text-[15px] leading-6 text-blue-500 font-semibold ">
+            <p className="text-[15px] leading-6 text-blue-700 font-semibold ">
               4:00 PM - 9:30 PM
             </p>
           </li>

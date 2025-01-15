@@ -5,9 +5,9 @@ import Testimonial from "../Components/Testimonial";
 const DoctorsPage = () => {
   return (
     <>
-      <section className="bg-[#fff9ea]">
+      <section className="bg-zinc-50">
         <div className="container text-center">
-          <h2 className="heading">Find a Doctor</h2>
+          <h2 className="heading-1 mb-4">Find a Doctor</h2>
           <div className="centered-row max-w-[570px] mx-auto bg-[#0066ff2c] rounded-md justify-between">
             <input
               type="search"
@@ -25,7 +25,7 @@ const DoctorsPage = () => {
 
       <section>
         <div className="container">
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 lg:gap-[30px] mt-[30px] ">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] ">
             {doctors.map((doctor, index) => (
               <DoctorsCard key={index} doctor={doctor} />
             ))}

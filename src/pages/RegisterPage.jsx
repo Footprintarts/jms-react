@@ -47,7 +47,7 @@ const RegisterPage = () => {
 
           <div className="rounded-l-lg lg:pl-16 py-10">
             <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-              Create an <span className="text-blue-600">account</span>
+              Create an <span className="text-blue-800">account</span>
             </h3>
 
             <form onSubmit={submitHandler}>
@@ -146,7 +146,7 @@ const RegisterPage = () => {
             <div className="mt-7">
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white text-lg rounded-lg"
+                className="w-full bg-blue-800 text-white text-lg rounded-lg"
               >
                 Sign up
               </button>

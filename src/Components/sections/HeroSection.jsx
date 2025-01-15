@@ -10,7 +10,7 @@ const HeroSection = () => {
           {/* Hero Content */}
           <div>
             <div className="lg:w-[570px]">
-              <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
+              <h1 className="text-[36px] leading-[46px] bg-gradient-to-br via-blue-800 from-blue-800 to-red-600 bg-clip-text text-transparent font-[800] md:text-[60px] md:leading-[70px]">
                 We help patients live a healthy, longer life.
               </h1>
               <p className="text_para">
@@ -22,7 +22,7 @@ const HeroSection = () => {
                 support.
               </p>
 
-              <button className="btn py-5 hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
+              <button className="btn py-5 bg-[#193a8b] hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
                 Request an Appointment
               </button>
             </div>
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 <h2 className="text-[36px] leading-[56px] lg:text-[44px] font-bold text-headingColor">
                   15+
                 </h2>
-                <span className="w-[100px] h-2 bg-purpleColor rounded-full block -mt-[14px]"></span>
+                <span className="w-[100px] h-2 bg-red-700 rounded-full block -mt-[14px]"></span>
                 <p className="text_para">Clinic Locations</p>
               </div>
               {/* 3 */}
@@ -50,7 +50,7 @@ const HeroSection = () => {
                 <h2 className="text-[36px] leading-[56px] lg:text-[44px] font-bold text-headingColor">
                   100%
                 </h2>
-                <span className="w-[100px] h-2 bg-[#01b5c5] rounded-full block -mt-[14px]"></span>
+                <span className="w-[100px] h-2 bg-blue-600 rounded-full block -mt-[14px]"></span>
                 <p className="text_para">Patient satisfaction</p>
               </div>
             </div>

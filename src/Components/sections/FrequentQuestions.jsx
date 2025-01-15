@@ -11,7 +11,7 @@ const FrequentQuestions = () => {
           </div>
 
           <div className="w-full md:w-1/2">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-headingColor">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-blue-800">
               Most asked questions by our beloved patients
             </h2>
 

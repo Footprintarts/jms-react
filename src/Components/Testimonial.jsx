@@ -27,7 +27,7 @@ const Testimonial = () => {
             className="slide grid gap-4  md:w-1/2  py-16  md:centered-row justify-center "
             key={index}
           >
-            <div className="py-6 px-5  bg-gradient-to-br from-zinc-100 via-white to-blue-200 w-full md:h-[220px] md:w-[500px]  rounded-xl">
+            <div className="py-6 px-5  bg-gradient-to-br from-zinc-100 via-white to-blue-800/20 w-full md:h-[220px] md:w-[500px]  rounded-xl">
               <div className="flex items-center gap-4">
                 <img
                   src={patientAvatar}

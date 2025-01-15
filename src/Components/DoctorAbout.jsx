@@ -20,7 +20,7 @@ const DoctorAbout = () => {
       <div>
         <h3 className="text-xl text-headingColor font-semibold flex items-center gap-2">
           About{" "}
-          <span className="text-[#01b5c5] font-bold text-2xl ">{name}</span>
+          <span className="text-blue-800 font-bold text-2xl ">{name}</span>
         </h3>
         <div className="text_para">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
@@ -41,7 +41,7 @@ const DoctorAbout = () => {
           {/* 1 */}
           <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 md-[30px]">
             <div>
-              <span className="text-[#01b5c5] text-[15px] leading-6 font-semibold">
+              <span className="text-blue-800 text-[15px] leading-6 font-semibold">
                 {formatDate("6/14/2014")} - {formatDate("5/23/2017")}
               </span>
 
@@ -56,7 +56,7 @@ const DoctorAbout = () => {
           {/* 1 */}
           <li className="mt-8 flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 md-[30px]">
             <div>
-              <span className="text-[#01b5c5] text-[15px] leading-6 font-semibold">
+              <span className="text-blue-800 text-[15px] leading-6 font-semibold">
                 {formatDate("12/7/2017")} - {formatDate("6/10/2021")}
               </span>
 
@@ -78,26 +78,26 @@ const DoctorAbout = () => {
 
         <ul className="grid sm:grid-cols-2 gap-[30px] pt-4 md:p-5">
           {/* 1 */}
-          <li className="p-4 rounded bg-[#FFF9ea]">
-            <span className="text-[#feb600] text-[15px] leading-6 font-semibold">
+          <li className="p-4 rounded bg-red-700/20">
+            <span className="text-red-900 text-[15px] leading-6 font-semibold">
               {formatDate("12/7/2017")} - {formatDate("6/10/2021")}
             </span>
-            <p className="text-[15px] leading-6 font-medium text-textColor">
+            <p className="text-[15px] leading-6 font-medium text-red-800">
               Sr. Surgeon
             </p>
-            <p className="text-[14px] leading-5 font-medium text-textColor">
+            <p className="text-[14px] leading-5 font-medium text-red-700">
               Muhimbili University of Health
             </p>
           </li>
           {/* 1 */}
-          <li className="p-4 rounded bg-[#FFF9ea]">
-            <span className="text-[#feb600] text-[15px] leading-6 font-semibold">
+          <li className="p-4 rounded bg-red-700/20">
+            <span className="text-red-900 text-[15px] leading-6 font-semibold">
               {formatDate("12/7/2017")} - {formatDate("6/10/2021")}
             </span>
-            <p className="text-[15px] leading-6 font-medium text-textColor">
+            <p className="text-[15px] leading-6 font-medium text-red-800">
               Sr. Surgeon
             </p>
-            <p className="text-[14px] leading-5 font-medium text-textColor">
+            <p className="text-[14px] leading-5 font-medium text-red-700">
               Muhimbili University of Health
             </p>
           </li>

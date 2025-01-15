@@ -44,6 +44,9 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", handleStickyHeader);
   }, []);
 
+  // Dynamic Time
+  const year = new Date().getFullYear();
+
   return (
     <header className="header flex items-center" ref={headerRef}>
       <div className="container">
@@ -82,7 +85,7 @@ const NavBar = () => {
           <div className="flex items-center gap-4">
             {/* Login Button for Desktop */}
             <Link to="/login">
-              <button className="hidden bg-blue-600 py-6 px-10 text-white font-semibold h-[44px] md:flex items-center justify-center rounded-[50px] btn-hover">
+              <button className="hidden bg-[#193a8b] py-6 px-10 text-white font-semibold h-[44px] md:flex items-center justify-center rounded-[50px] btn-hover">
                 Login
               </button>
             </Link>
@@ -103,7 +106,7 @@ const NavBar = () => {
               isMobileNavVisible ? "translate-x-0" : "translate-x-full"
             } transition-transform duration-300`}
           >
-            <div className="bg-zinc-50 p-2 border-b border-blue-700 text-lg">
+            <div className="bg-zinc-50 p-2 border-b border-blue-800 text-lg">
               <button className="text-blue-600 bg-zinc-50" onClick={closeMenu}>
                 Back
               </button>
@@ -123,10 +126,16 @@ const NavBar = () => {
             {/* Login Button for Mobile */}
             <div className="p-4 flex justify-center">
               <Link to="/login" onClick={closeMenu}>
-                <button className="w-full bg-blue-600 py-6 px-10 text-white font-semibold h-[44px] flex items-center justify-center rounded-[50px] btn-hover">
+                <button className="w-full bg-[#193a8b] py-6 px-10 text-white font-semibold h-[44px] flex items-center justify-center rounded-[50px] btn-hover">
                   Login
                 </button>
               </Link>
+            </div>
+
+            <div className="copyright text-center mt-[52vh]">
+              <p className="text-zinc-400 text-sm">
+                Copyright © {year} JMS HealthCare{" "}
+              </p>
             </div>
           </div>
         </div>

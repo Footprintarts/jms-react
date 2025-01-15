@@ -21,7 +21,7 @@ const DoctorFeedback = () => {
             </figure>
 
             <div>
-              <h5 className="text-base text-blue-600 font-bold">Ali ahmed</h5>
+              <h5 className="text-base text-blue-800 font-bold">Ali ahmed</h5>
 
               <p className="text-sm text-textColor">
                 {formatDate("02/17/2023")}

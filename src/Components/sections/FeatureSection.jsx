@@ -51,14 +51,14 @@ const FeatureSection = () => {
                 </span>
               </div>
 
-              <div className="w-[65px] lg:w-[96px] bg-[#CCF0F3] lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-[#01b5c5] font-[500] mt-2 lg:mt-4">
+              <div className="w-[65px] lg:w-[96px] bg-[#fce4e8] lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-[#7f1627] font-[500] mt-2 lg:mt-4">
                 Consultation
               </div>
 
               <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]">
                 <img src={avatarIcon} alt="image" />
                 <h4 className="text-[10px] leading-3 lg:text-base font-bold text-headingColor">
-                  Boniphace Jackson
+                  JMS HealthCare
                 </h4>
               </div>
             </div>
