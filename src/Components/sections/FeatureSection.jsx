@@ -36,7 +36,7 @@ const FeatureSection = () => {
           <div className="relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0">
             <img src={featureImg} alt="image" className="w-3/4" />
 
-            <div className="w-[150px] lg:w-[248px] bg-white absolute bottom-[50px] left-0 md:bottom-[100px] md:left-5 z-20 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px]">
+            <div className="w-[150px] lg:w-[250px] bg-white absolute bottom-[50px] left-4 md:bottom-[100px] md:left-5 z-20 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px] p-2">
               <div className="centered-row justify-between">
                 <div className="centered-row gap-[6px] lg:gap-3">
                   <p className="text-[10px] leading-10 lg:text-[14px] lg:leading-5 text-headingColor font-semibold">
@@ -51,7 +51,7 @@ const FeatureSection = () => {
                 </span>
               </div>
 
-              <div className="w-[65px] lg:w-[96px] bg-[#fce4e8] lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-[#7f1627] font-[500] mt-2 lg:mt-4">
+              <div className="w-[65px] lg:w-[96px] bg-[#fce4e8] lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px] lg:text-[12px] lg:leading-4 text-[#7f1627] font-[500] mt-2 p-1 lg:mt-4">
                 Consultation
               </div>
 
