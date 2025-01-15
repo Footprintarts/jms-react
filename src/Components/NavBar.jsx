@@ -48,7 +48,10 @@ const NavBar = () => {
   const year = new Date().getFullYear();
 
   return (
-    <header className="header flex items-center" ref={headerRef}>
+    <header
+      className="header relative overflow-x-clip flex items-center"
+      ref={headerRef}
+    >
       <div className="container">
         <div className="centered-row justify-between">
           {/* Logo */}

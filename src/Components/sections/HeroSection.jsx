@@ -4,7 +4,7 @@ import heroImage03 from "../../assets/images/hero-img03.png";
 
 const HeroSection = () => {
   return (
-    <section className="hero_section pt-[60px] 2xl:h-[800px] bg-grad">
+    <section className="hero_section pt-[60px] 2xl:h-[800px] bg-grad ">
       <div className="container">
         <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
           {/* Hero Content */}
