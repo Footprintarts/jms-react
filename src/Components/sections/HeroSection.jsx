@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroImage from "../../assets/images/hero-img01.png";
 import heroImage02 from "../../assets/images/hero-img02.png";
 import heroImage03 from "../../assets/images/hero-img03.png";
@@ -22,9 +23,11 @@ const HeroSection = () => {
                 support.
               </p>
 
-              <button className="btn py-5 bg-[#193a8b] hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
-                Request an Appointment
-              </button>
+              <Link to={"/appointment"}>
+                <button className="btn py-5 bg-[#193a8b] hover:bg-blue-100 hover:border hover:border-primaryColor transition-all duration-300 hover:text-primaryColor hover:shadow-xl hover:shadow-primaryColor/20 hover:-translate-y-1">
+                  Request an Appointment
+                </button>
+              </Link>
             </div>
 
             {/* Hero Counter */}

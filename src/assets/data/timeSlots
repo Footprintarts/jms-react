@@ -1,0 +1,459 @@
+const timeSlots = [
+  {
+    _id: "1",
+    value: "12:05am",
+    label: "12:05am",
+  },
+  {
+    _id: "2",
+    value: "12:20am",
+    label: "12:20am",
+  },
+  {
+    _id: "3",
+    value: "12:35am",
+    label: "12:35am",
+  },
+  {
+    _id: "4",
+    value: "12:50am",
+    label: "12:50am",
+  },
+  {
+    _id: "5",
+    value: "1:05am",
+    label: "1:05am",
+  },
+  {
+    _id: "6",
+    value: "1:20am",
+    label: "1:20am",
+  },
+  {
+    _id: "7",
+    value: "1:35am",
+    label: "1:35am",
+  },
+  {
+    _id: "8",
+    value: "1:50am",
+    label: "1:50am",
+  },
+  {
+    _id: "9",
+    value: "2:05am",
+    label: "2:05am",
+  },
+  {
+    _id: "10",
+    value: "2:20am",
+    label: "2:20am",
+  },
+  {
+    _id: "11",
+    value: "2:35am",
+    label: "2:35am",
+  },
+  {
+    _id: "12",
+    value: "2:50am",
+    label: "2:50am",
+  },
+  {
+    _id: "13",
+    value: "3:05am",
+    label: "3:05am",
+  },
+  {
+    _id: "14",
+    value: "3:20am",
+    label: "3:20am",
+  },
+  {
+    _id: "15",
+    value: "3:35am",
+    label: "3:35am",
+  },
+  {
+    _id: "16",
+    value: "3:50am",
+    label: "3:50am",
+  },
+  {
+    _id: "17",
+    value: "4:05am",
+    label: "4:05am",
+  },
+  {
+    _id: "18",
+    value: "4:20am",
+    label: "4:20am",
+  },
+  {
+    _id: "19",
+    value: "4:35am",
+    label: "4:35am",
+  },
+  {
+    _id: "20",
+    value: "4:50am",
+    label: "4:50am",
+  },
+  {
+    _id: "21",
+    value: "5:05am",
+    label: "5:05am",
+  },
+  {
+    _id: "22",
+    value: "5:20am",
+    label: "5:20am",
+  },
+  {
+    _id: "23",
+    value: "5:35am",
+    label: "5:35am",
+  },
+  {
+    _id: "24",
+    value: "5:50am",
+    label: "5:50am",
+  },
+  {
+    _id: "25",
+    value: "6:05am",
+    label: "6:05am",
+  },
+  {
+    _id: "26",
+    value: "6:20am",
+    label: "6:20am",
+  },
+  {
+    _id: "27",
+    value: "6:35am",
+    label: "6:35am",
+  },
+  {
+    _id: "28",
+    value: "6:50am",
+    label: "6:50am",
+  },
+  {
+    _id: "29",
+    value: "7:05am",
+    label: "7:05am",
+  },
+  {
+    _id: "30",
+    value: "7:20am",
+    label: "7:20am",
+  },
+  {
+    _id: "31",
+    value: "7:35am",
+    label: "7:35am",
+  },
+  {
+    _id: "32",
+    value: "7:50am",
+    label: "7:50am",
+  },
+  {
+    _id: "33",
+    value: "8:05am",
+    label: "8:05am",
+  },
+  {
+    _id: "34",
+    value: "8:20am",
+    label: "8:20am",
+  },
+  {
+    _id: "35",
+    value: "8:35am",
+    label: "8:35am",
+  },
+  {
+    _id: "36",
+    value: "8:50am",
+    label: "8:50am",
+  },
+  {
+    _id: "37",
+    value: "9:05am",
+    label: "9:05am",
+  },
+  {
+    _id: "38",
+    value: "9:20am",
+    label: "9:20am",
+  },
+  {
+    _id: "39",
+    value: "9:35am",
+    label: "9:35am",
+  },
+  {
+    _id: "40",
+    value: "9:50am",
+    label: "9:50am",
+  },
+  {
+    _id: "41",
+    value: "10:05am",
+    label: "10:05am",
+  },
+  {
+    _id: "42",
+    value: "10:20am",
+    label: "10:20am",
+  },
+  {
+    _id: "43",
+    value: "10:35am",
+    label: "10:35am",
+  },
+  {
+    _id: "44",
+    value: "10:50am",
+    label: "10:50am",
+  },
+  {
+    _id: "45",
+    value: "11:05am",
+    label: "11:05am",
+  },
+  {
+    _id: "46",
+    value: "11:20am",
+    label: "11:20am",
+  },
+  {
+    _id: "47",
+    value: "11:35am",
+    label: "11:35am",
+  },
+  {
+    _id: "48",
+    value: "11:50am",
+    label: "11:50am",
+  },
+  {
+    _id: "49",
+    value: "12:05pm",
+    label: "12:05pm",
+  },
+  {
+    _id: "50",
+    value: "12:20pm",
+    label: "12:20pm",
+  },
+  {
+    _id: "51",
+    value: "12:35pm",
+    label: "12:35pm",
+  },
+  {
+    _id: "52",
+    value: "12:50pm",
+    label: "12:50pm",
+  },
+  {
+    _id: "53",
+    value: "1:05pm",
+    label: "1:05pm",
+  },
+  {
+    _id: "54",
+    value: "1:20pm",
+    label: "1:20pm",
+  },
+  {
+    _id: "55",
+    value: "1:35pm",
+    label: "1:35pm",
+  },
+  {
+    _id: "56",
+    value: "1:50pm",
+    label: "1:50pm",
+  },
+  {
+    _id: "57",
+    value: "2:05pm",
+    label: "2:05pm",
+  },
+  {
+    _id: "58",
+    value: "2:20pm",
+    label: "2:20pm",
+  },
+  {
+    _id: "59",
+    value: "2:35pm",
+    label: "2:35pm",
+  },
+  {
+    _id: "60",
+    value: "2:50pm",
+    label: "2:50pm",
+  },
+  {
+    _id: "61",
+    value: "3:05pm",
+    label: "3:05pm",
+  },
+  {
+    _id: "62",
+    value: "3:20pm",
+    label: "3:20pm",
+  },
+  {
+    _id: "63",
+    value: "3:35pm",
+    label: "3:35pm",
+  },
+  {
+    _id: "64",
+    value: "3:50pm",
+    label: "3:50pm",
+  },
+  {
+    _id: "65",
+    value: "4:05pm",
+    label: "4:05pm",
+  },
+  {
+    _id: "66",
+    value: "4:20pm",
+    label: "4:20pm",
+  },
+  {
+    _id: "67",
+    value: "4:35pm",
+    label: "4:35pm",
+  },
+  {
+    _id: "68",
+    value: "4:50pm",
+    label: "4:50pm",
+  },
+  {
+    _id: "69",
+    value: "5:05pm",
+    label: "5:05pm",
+  },
+  {
+    _id: "70",
+    value: "5:20pm",
+    label: "5:20pm",
+  },
+  {
+    _id: "71",
+    value: "5:35pm",
+    label: "5:35pm",
+  },
+  {
+    _id: "72",
+    value: "5:50pm",
+    label: "5:50pm",
+  },
+  {
+    _id: "73",
+    value: "6:05pm",
+    label: "6:05pm",
+  },
+  {
+    _id: "74",
+    value: "6:20pm",
+    label: "6:20pm",
+  },
+  {
+    _id: "75",
+    value: "6:35pm",
+    label: "6:35pm",
+  },
+  {
+    _id: "76",
+    value: "6:50pm",
+    label: "6:50pm",
+  },
+  {
+    _id: "77",
+    value: "7:05pm",
+    label: "7:05pm",
+  },
+  {
+    _id: "78",
+    value: "7:20pm",
+    label: "7:20pm",
+  },
+  {
+    _id: "79",
+    value: "7:35pm",
+    label: "7:35pm",
+  },
+  {
+    _id: "80",
+    value: "7:50pm",
+    label: "7:50pm",
+  },
+  {
+    _id: "81",
+    value: "8:05pm",
+    label: "8:05pm",
+  },
+  {
+    _id: "82",
+    value: "8:20pm",
+    label: "8:20pm",
+  },
+  {
+    _id: "83",
+    value: "8:35pm",
+    label: "8:35pm",
+  },
+  {
+    _id: "84",
+    value: "8:50pm",
+    label: "8:50pm",
+  },
+  {
+    _id: "85",
+    value: "9:05pm",
+    label: "9:05pm",
+  },
+  {
+    _id: "86",
+    value: "9:20pm",
+    label: "9:20pm",
+  },
+  {
+    _id: "87",
+    value: "9:35pm",
+    label: "9:35pm",
+  },
+  {
+    _id: "88",
+    value: "9:50pm",
+    label: "9:50pm",
+  },
+  {
+    _id: "89",
+    value: "10:05pm",
+    label: "10:05pm",
+  },
+  {
+    _id: "90",
+    value: "10:20pm",
+    label: "10:20pm",
+  },
+  {
+    _id: "91",
+    value: "10:35pm",
+    label: "10:35pm",
+  },
+];
+
+export default timeSlots;

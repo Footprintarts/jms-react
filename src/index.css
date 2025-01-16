@@ -55,6 +55,10 @@
     @apply max-w-full w-[1440px] px-5 mx-auto;
   }
 
+  .white-text {
+    @apply text-white font-bold;
+  }
+
   .btn {
     @apply bg-[#193a8b] py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
   }
