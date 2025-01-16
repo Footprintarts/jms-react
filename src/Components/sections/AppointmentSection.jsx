@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
 import { useState } from "react";
-
 import ServiceSelectionPage from "./ServiceSelectionPage";
 import DatePage from "./DatePage";
 import AppointmentExtraData from "./AppointmentExtraData.jsx";
